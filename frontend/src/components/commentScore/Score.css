@@ -1,0 +1,30 @@
+.red{
+    color: hsl(358, 79%, 66%) !important;
+}
+.green{
+    color: hsl(113, 79%, 66%) !important;
+}
+.score-act{
+    padding: 8px 15px;
+    background-color: var(--clr-Light-gray);
+    border-radius: 8px;
+    min-width: 102px;
+}
+.score{
+    width: 50px;
+    text-align: center;
+    font-weight: 500;
+    font-family: var(--ff);
+    color: var(--clr-Moderate-blue);
+}
+.score-act > *{
+    display: inline-block;
+}
+.score-act button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.score-act button:last-of-type img{
+    vertical-align: middle;
+}

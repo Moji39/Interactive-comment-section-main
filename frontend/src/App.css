@@ -1,0 +1,23 @@
+@import './variables.css';
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body, .container, #root{
+    height: 100%;
+}
+body{
+    background-color: var(--clr-Very-light-gray);
+    padding: 2em;
+    min-width: 375px;
+}
+.container{
+    max-width: 435px;
+    margin-inline: auto;
+    position: relative;
+}
+button{
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+.card{
+    width: 100%;
+    background-color: var(--clr-White);
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: 1em;
+    min-width: 270px;
+}
+.comment{
+    font-family: var(--ff);
+    font-size: 15px;
+    color: var(--clr-Grayish-Blue);
+    margin-bottom: 1rem;
+    text-align: left;
+    white-space: pre-line;
+    overflow-wrap: break-word;
+}
+.reply-to{
+    font-weight: 500;
+    color: var(--clr-Moderate-blue);
+}
+.base{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.isEditing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.isEditing > button{
+    background-color: var(--clr-Moderate-blue);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--clr-White);
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+    font-family: var(--ff);
+}
+.isEditing > textarea{
+    padding: 0.5rem 0.5rem;
+    margin-right: 0.5rem;
+    overflow: hidden;
+}

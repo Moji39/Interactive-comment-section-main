@@ -1,0 +1,71 @@
+.login-form{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--clr-White);
+    padding: 2.5em 1.5em;
+    border-radius: 15px;
+    width: min(100%, 425px);
+}
+.input-field{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding-block: 1px;
+}
+.input-field img{
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+.input-field input{
+    width: calc(100% - 34px);
+    height: 24px;
+    border: 1px solid var(--clr-black-op);
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    font-family: var(--ff), "Arial";
+}
+.input-field input::placeholder{
+    font-size: 14px;
+}
+.focus{
+    box-shadow: 0 3px 5px 0 var(--clr-Light-gray);
+}
+.submit-btn{
+    display: block;
+    background-color: var(--clr-Moderate-blue);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--clr-White);
+    padding: 0.5rem 3rem;
+    border-radius: 500px;
+    margin-inline: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+.error-msg{
+    font-family: var(--ff), "Arial";
+    margin-inline: auto;
+    text-align: center;
+    color: hsl(358, 79%, 66%);
+}
+@media (hover: hover){
+    .submit-btn:hover{
+        background-color: var(--clr-Moderate-blue-op);
+        color: var(--clr-Dark-blue);
+        transition: all ease-in-out 0.2s;
+    }
+}
+@media (min-width: 490px){
+    .login-form{
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

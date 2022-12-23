@@ -1,0 +1,34 @@
+.top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.top > img{
+    width: 25px;
+    height: 25px;
+}
+.top p{
+    margin-bottom: 0;
+    font-family: var(--ff);
+    font-size: 15px;
+    color: var(--clr-Dark-blue);
+    font-weight: 500;
+}
+p.created-since{
+    font-weight: 400;
+    color: var(--clr-Grayish-Blue);
+    margin-right: 0;
+}
+.top > *{
+    margin-right: 15px;
+}
+span.you{
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 13px;
+    background-color: var(--clr-Moderate-blue);
+    padding-inline: 5px;
+    color: var(--clr-White);
+    padding-bottom: 3px;
+    border-radius: 3px;
+}

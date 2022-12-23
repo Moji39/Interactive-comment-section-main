@@ -1,0 +1,16 @@
+.actions button{
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--clr-Moderate-blue);
+    font-weight: 700;
+    font-size: 15px;
+}
+.actions button img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.actions button.delete{
+    color: var(--clr-Soft-Red);
+}
